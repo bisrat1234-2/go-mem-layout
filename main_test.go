@@ -2,6 +2,7 @@ package main
 
 import (
 	"reflect"
+	"strings"
 	"testing"
 )
 
@@ -166,10 +167,10 @@ func TestGenerateASCIIDiagram(t *testing.T) {
 	}
 
 	// Check for key elements
-	if !contains(diagram, "TestStruct") {
+	if !strings.Contains(diagram, "TestStruct") {
 		t.Error("Diagram should contain struct name")
 	}
-	if !contains(diagram, "Total Size: 16") {
+	if !strings.Contains(diagram, "Total Size: 16") {
 		t.Error("Diagram should contain total size")
 	}
 }
@@ -192,7 +193,7 @@ func TestGenerateCompactDiagram(t *testing.T) {
 		t.Error("Expected non-empty diagram")
 	}
 
-	if !contains(diagram, "struct TestStruct") {
+	if !strings.Contains(diagram, "struct TestStruct") {
 		t.Error("Diagram should contain struct declaration")
 	}
 }
@@ -217,10 +218,10 @@ func TestGenerateJSON(t *testing.T) {
 		t.Error("Expected non-empty JSON")
 	}
 
-	if !contains(json, "TestStruct") {
+	if !strings.Contains(json, "TestStruct") {
 		t.Error("JSON should contain struct name")
 	}
-	if !contains(json, "\"total_size\": 16") {
+	if !strings.Contains(json, "\"total_size\": 16") {
 		t.Error("JSON should contain total size")
 	}
 }
@@ -249,7 +250,7 @@ func TestFormatOutput(t *testing.T) {
 			t.Errorf("FormatOutput(%v) failed: %v", tt.format, err)
 			continue
 		}
-		if !contains(output, tt.want) {
+		if !strings.Contains(output, tt.want) {
 			t.Errorf("FormatOutput(%v) output should contain %q", tt.format, tt.want)
 		}
 	}
@@ -291,17 +292,4 @@ type Example struct {
 	if err == nil {
 		t.Error("Expected error for non-existent struct, got nil")
 	}
-}
-
-func contains(s, substr string) bool {
-	return len(s) >= len(substr) && (s == substr || len(s) > len(substr) && containsHelper(s, substr))
-}
-
-func containsHelper(s, substr string) bool {
-	for i := 0; i <= len(s)-len(substr); i++ {
-		if s[i:i+len(substr)] == substr {
-			return true
-		}
-	}
-	return false
 }
